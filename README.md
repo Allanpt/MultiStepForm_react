@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
 - CSS
 
-## :computer: Projeto - [Acesse aqui](https://allanpt.github.io/MultiStepForm)
+## :computer: Projeto - [Acesse aqui](https://allanpt.github.io/MultiStepForm_react)
 
 Esse projeto tem por conceito aplicar os conhecimentos estudados pela plataforma de ensino Udemy Academy.
 
