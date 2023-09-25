@@ -1,0 +1,21 @@
+.discount-container{
+    padding: 0 66px;
+}
+.summary h4{
+    text-align: left;
+}
+.summary{
+    margin-top: 30px;
+}
+.summary h3{
+    margin-bottom: 15px;
+}
+.summary h4{
+    margin-bottom: 10px;
+}
+.summary p{
+    display: inline;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+}

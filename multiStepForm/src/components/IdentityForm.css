@@ -1,0 +1,19 @@
+.box-input{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+label{
+    align-self: flex-start;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.box-input.email{
+    margin-top: 25px;
+}
+input{
+    padding: 10px;
+}

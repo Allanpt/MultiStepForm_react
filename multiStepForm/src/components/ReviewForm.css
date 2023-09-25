@@ -1,0 +1,52 @@
+.form-control.score-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.radio-container{
+    position: relative;
+}
+.radio-container span{
+    position: relative;
+    font-size: 35px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.radio-container input{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+.score-container span:hover {
+    background-color: #118cf8;
+    border-radius: 30%;
+}
+.score-container span:hover + p{
+    color: #118cf8;
+}
+.score-container input:checked ~ span {
+    background-color: #118cf8;
+    border-radius: 50%;
+}
+.score-container input:checked ~ p{
+    color: #C7462C;
+}
+.radio-container p{
+    font-style: italic;
+    font-size: 0.7rem;
+    width: 120px;
+    transition: 0.5s;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+.form-control #comment{
+    padding: 10px;
+    width: 540px;
+    height: 100px;
+}
+.form-control.comment{
+    margin-top: 35px;
+}

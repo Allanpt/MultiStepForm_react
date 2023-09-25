@@ -1,0 +1,36 @@
+.steps{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+  }
+  .box{
+    z-index: 1;
+    width: 100px;
+    background-color: aliceblue;
+  }
+  .box p{
+    margin-top: 5px;
+  }
+  .box svg{
+    font-size: 25px;
+  }
+.steps::after{
+    content: '';
+    width: 500px;
+    border-bottom: 1px solid #807565;
+    position: absolute;
+    top: 28px;
+    right: 55px;
+}
+.active{
+    font-weight: bold;
+}
+.active > span,.active > polygon,.active > svg {
+    fill: #118cf8;
+    stroke: #118cf8;
+    color: #118cf8;
+}
+.active > svg > path {
+    stroke: #118cf8;
+}
+  
