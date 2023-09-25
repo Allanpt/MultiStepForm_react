@@ -1,7 +1,7 @@
 <h1 align="center"> Formulário de avaliação da venda </h1>
 
 <p align="center">
-Projeto em React utilizando aplicações básicas.  <br/>
+Projeto em React, utilizando um modelo de avaliação de atendimento sobre a compra de um produto. <br/>
 </p>
 
 <p align="center">
